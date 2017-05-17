@@ -1,0 +1,177 @@
+html {
+    width:100%;
+    height:100%;
+    background: #e5e5e5;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family:"Arial","微软雅黑","黑体","_sans";font-size:125%;
+    /*overflow:hidden;*/
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing:border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+audio, canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+th {
+    text-align: inherit
+}
+
+fieldset, img {
+    border: 0
+}
+
+iframe {
+    display: block
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal
+}
+
+del {
+    text-decoration: line-through
+}
+
+address, caption, cite, code, dfn, em, th, var, i, b {
+    font-style: normal;
+    font-weight: 500
+}
+
+ol, ul {
+    list-style: none
+}
+
+h1, h2, h3, h4, h5, h6, b {
+    font-size: inherit;
+    font-weight: 500
+}
+
+q:before, q:after {
+    content: ''
+}
+
+a:visited, a:hover {
+    color: #000;
+    text-decoration: none
+}
+
+html {
+    height: 100%
+}
+
+body {
+   /* min-height: 100%;
+    background:#f3f5f7;*/
+}
+
+input, select, textarea {
+    font-size: 100%
+}
+
+ins, a {
+    text-decoration: none
+}
+
+a，input, textarea{
+    color: #000;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input[type="button"], input[type="submit"], input[type="reset"] {
+    -webkit-appearance: none;
+}
+input {
+    /*background:no-repeat 0 0 scroll ＃EEEEEE;*/
+    border:none;
+    outline:medium; /* 在浏览器下面，点击input输入时，会有边框，只要在样式中应用：outline:medium;即可去掉边框。 */ 
+    padding:0; /*input默认有上下padding*/
+}
+/*#container{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+#container .page{
+    width:100%;
+    height: 100%;
+    position: absolute;
+}
+
+#pages {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    z-index: 1000;
+    text-align: center;
+    width: 100%;
+    font-size: 0;
+}
+#pages li {
+    list-style: none;
+    width:10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 100%;
+    border: 1px solid #000;
+}
+#pages li.active {
+    background: #fff;
+}*/
+
+/* 隐藏滚动条 */
+/*::-webkit-scrollbar { width: 0; }*/
+input:not([type="checkbox"]), select, textarea { /*outline: none; border: none; -webkit-appearance: none; */}
+select {
+  /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+ /* border: solid 1px #000;*/
+outline: none; border: none; 
+  /*将默认的select选择框样式清除*/
+ /* appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;*/
+
+  /*在选择框的最右侧中间显示小箭头图片*/
+ /* background: url("arrow.png") no-repeat right center;
+  padding-right: 14px;*/
+  -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    background:transparent;
+    border:none;
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+
+input::-webkit-input-placeholder {
+    color: #515252;
+}
+input:-ms-input-placeholder { // IE10+
+    color: #515252;
+}
+input:-moz-placeholder { // Firefox4-18
+    color: #515252;
+}
+input::-moz-placeholder { // Firefox19+
+    color: #515252;
+}
