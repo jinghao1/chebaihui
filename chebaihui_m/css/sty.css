@@ -34,7 +34,7 @@ img{width:100%;display: block;}
 .actBtn{position: absolute;top:4.25rem;left:1.0rem;width:4.5rem;height:0.9rem}
 .bg04{background: url(../images/bg04.jpg) no-repeat; height:12.075rem; background-size:100%;}
 
-.box{float:left;margin-top:1.35rem;width:90%;margin-left:5%;}
+.box{float:left;margin-top:1.35rem;width:92%;margin-left:4%;}
 .swiper-container { height:10.5rem;}
 .swiper-container .swiper-wrapper{height:9.15rem;}
 .swiper-container .swiper-slide{background: url(../images/tk.png) no-repeat; background-size: cover;width: 58%; height: 100%;}
@@ -48,7 +48,7 @@ img{width:100%;display: block;}
 
 .bg05{background: url(../images/bg05.jpg) no-repeat; height:8.975rem; background-size:100%;margin-top:-1px;}
 .bg06{background: url(../images/bg06.jpg) no-repeat; height:20.625rem; background-size:100%;margin-top:-1px;}
-.boxs{float:left;margin-top:1.85rem;width:90%;margin-left:5%;}
+.boxs{float:left;margin-top:1.85rem;width:92%;margin-left:4%;}
 .swiper-containers{ height:12.75rem;    margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -64,7 +64,7 @@ img{width:100%;display: block;}
 .swiper-containers .swiper-pagination-bullet{width:0.3rem;height:0.3rem; background: #bedcfc;opacity: 0.8}
 .swiper-containers .swiper-pagination-bullet-active{background: #fff}
 
-.hz{width:90%;margin-left:5%;float:left;margin-top:0.75rem;font-size:12px;color:#e2eafd;}
+.hz{width:92%;margin-left:4%;float:left;margin-top:0.75rem;font-size:12px;color:#e2eafd;}
 .hz p{margin-top:0.25rem;}
 .hz p span{margin-right:0.125rem;}
 
