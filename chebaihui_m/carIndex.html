@@ -27,10 +27,9 @@
             <p><a>北京市中关村创客大厦</a></p>
         </div>
         <div class="xz">
-            <select>
-                <option>北京站</option>
-                <option>北京站</option>
-                <option>北京站</option>
+            <select onchange="changes(this)">
+                <option value="1">北京站</option>
+                <option value="2">成都站</option>
             </select>
         </div>
     </div>
@@ -60,16 +59,19 @@
                 </li>
             </ul>
         </div>
-        <div class="zl"><input type="checkbox"/><font>我已阅读并接受汽车大全隐私条款：</br>
+        <div class="zl"><input type="checkbox" checked="true" /><font>我已阅读并接受汽车大全隐私条款：</br>
 您的个人资料会提交至厂商的授权经销商或汽车大全
 客服，与您进一步沟通试驾、购车等事宜。</font></div>
         <div class="btn">立即报名</div>
     <!-- 登录-end -->
     </div>
+    <!--------- 活动介绍 ---------->
     <div class="bg03">
         <div class="act">活动报名活动报名活动报名活动报名活动报名活动报名活动报名活动报名活动报名。。。</div>
         <div class="actBtn"></div>
     </div>
+    <!--------- 活动介绍-ending ---------->
+    <!--------- 限量特惠 ---------->
     <div class="bg04">
         <div class="box">
             <!-- Swiper -->
@@ -79,19 +81,19 @@
                            <h2><img src="images/car.png"/></h2>
                            <h3>宝沃BX5</h3>
                            <h4><span>优惠</span>现金优惠2300元起</h4>
-                           <p>立即报名</p>
+                           <p class="ljBtn">立即报名</p>
                     </div>
                     <div class="swiper-slide">
                            <h2><img src="images/car.png"/></h2>
                            <h3>宝沃BX5</h3>
                            <h4><span>优惠</span>现金优惠2300元起</h4>
-                           <p>立即报名</p>
+                           <p class="ljBtn">立即报名</p>
                     </div>
                    <div class="swiper-slide">
                            <h2><img src="images/car.png"/></h2>
                            <h3>宝沃BX5</h3>
                            <h4><span>优惠</span>现金优惠2300元起</h4>
-                           <p>立即报名</p>
+                           <p class="ljBtn">立即报名</p>
                     </div>
                 </div>
                 <!-- Add Pagination -->
@@ -99,47 +101,118 @@
             </div>
         </div>
     </div>
-    <div class="bg05"></div>
+    <!--------- 限量特惠-ending ---------->
+    <!--------- 参展品牌 -------->
+    <div class="bg05">
+        <ul>
+            <li><a  href="http://baidu.com"></a></li>
+            <li><a  href="http://baidu.com"></a></li>
+            <li><a  href="http://baidu.com"></a></li>
+            <li><a  href="http://baidu.com"></a></li>
+            <li><a  href="http://baidu.com"></a></li>
+            <li><a  href="http://baidu.com"></a></li>
+        </ul>
+    </div>
+    <!--------- 参展品牌-ending -------->
     <div class="bg06">
+        <!--------- 往期回顾 -------->
         <div class="boxs">
         <div class="swiper-containers">
             <div class="swiper-wrapper">
                <div class="swiper-slide">
-                   <h2><img src="images/car2.png"/></h2>
-                   <h3>2017行圆汽车车百汇-韶关站圆满落幕</h3>
-                   <h4>2017年3月18-19日，由中国领先的汽车互联网公司行圆汽车主办的2017易车百城车展亮相韶关西河...</h4>
-                   <p>查看详情</p>
+                    <a href="http://qichedaquan.com">
+                       <h2><img src="images/car2.png"/></h2>
+                       <h3>2017行圆汽车车百汇-韶关站圆满落幕</h3>
+                       <h4>2017年3月18-19日，由中国领先的汽车互联网公司行圆汽车主办的2017易车百城车展亮相韶关西河...</h4>
+                       <p>查看详情</p>
+                    </a>
                </div>
                 <div class="swiper-slide">
-                   <h2><img src="images/car2.png"/></h2>
-                   <h3>2017行圆汽车车百汇-韶关站圆满落幕</h3>
-                   <h4>2017年3月18-19日，由中国领先的汽车互联网公司行圆汽车主办的2017易车百城车展亮相韶关西河...</h4>
-                   <p>查看详情</p>
+                   <a href="http://qichedaquan.com">
+                       <h2><img src="images/car2.png"/></h2>
+                       <h3>2017行圆汽车车百汇-韶关站圆满落幕</h3>
+                       <h4>2017年3月18-19日，由中国领先的汽车互联网公司行圆汽车主办的2017易车百城车展亮相韶关西河...</h4>
+                       <p>查看详情</p>
+                    </a>
                 </div>
                 <div class="swiper-slide">
-                   <h2><img src="images/car2.png"/></h2>
-                   <h3>2017行圆汽车车百汇-韶关站圆满落幕</h3>
-                   <h4>2017年3月18-19日，由中国领先的汽车互联网公司行圆汽车主办的2017易车百城车展亮相韶关西河...</h4>
-                   <p>查看详情</p>
+                   <a href="http://qichedaquan.com">
+                       <h2><img src="images/car2.png"/></h2>
+                       <h3>2017行圆汽车车百汇-韶关站圆满落幕</h3>
+                       <h4>2017年3月18-19日，由中国领先的汽车互联网公司行圆汽车主办的2017易车百城车展亮相韶关西河...</h4>
+                       <p>查看详情</p>
+                    </a>
                 </div>
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
         </div>
         </div>
-        <!-- 合作伙伴 -->
+        <!--------- 往期回顾 -ending-------->
+        <!--------- 合作伙伴 ---------->
         <div class="hz">
             <h3>合作伙伴</h3>
-            <p><span>合作伙伴  |</span><span>合作伙伴  |</span><span>合作伙伴  |</span><span>合作伙伴  |</span><span>合作伙伴  |</span><span>合作伙伴  |</span><span>合作伙伴  |</span><span>合作伙伴  |</span><span>合作伙伴  |</span><span>合作伙伴  |</span></p>
+            <p><a href="http://baidu.com">合作伙伴  |</a><a>合作伙伴  |</a><a>合作伙伴  |</a><a>合作伙伴  |</a><a>合作伙伴  |</a><a>合作伙伴  |</a><a>合作伙伴  |</a><a>合作伙伴  |</a><a>合作伙伴  |</a><a>合作伙伴  |</a></p>
         </div>
+        <!--------- 合作伙伴 -ending---------->
     </div>
     <!-- 弹框 -->
-    <!-- <div class="tk">
-        <div class="tkCont">
-            <span></span>
+    <div class="tks">
+        <div class="tk"></div> 
+        <!-- 选择活动城市-弹框 --> 
+        <div class="hdCity">
+            <h1><span>选择活动城市</span><font class="close02"><img src="images/close02.png"/></font></h1>
+            <div class="xzCity">
+                <h2>正在报名</h2>
+                <ul class="uls">
+                    <li><a>A：</a><div class="citys"><span>鞍山</span></div></li>
+                    <li><a>B：</a><div class="citys"><span class="on">北京</span><span>北京</span><span>北京</span><span>北京</span><span>北京</span><span>北京</span><span>北京</span></div></li>
+                    <li><a>C：</a><div class="citys"><span>鞍山</span><span>鞍山</span><span>鞍山</span></div></li>
+                    <li><a>D：</a><div class="citys"><span>鞍山</span></div></li>
+                    <li><a>E：</a><div class="citys"><span>鞍山</span></div></li>
+                    <li><a>D：</a><div class="citys"><span>鞍山</span></div></li>
+                    <li><a>E：</a><div class="citys"><span>鞍山</span></div></li>
+                    <li><a>D：</a><div class="citys"><span>鞍山</span></div></li>
+                    <li><a>E：</a><div class="citys"><span>鞍山</span></div></li>
+                    <li><a>D：</a><div class="citys"><span>鞍山</span></div></li>
+                    <li><a>E：</a><div class="citys"><span>鞍山</span></div></li>
+                </ul>
+                <h2>已结束</h2>
+                <ul class="uls" style="height:auto;">
+                    <li><a>A：</a><div class="citys"><span>鞍山</span></div></li>
+                    <li><a>B：</a><div class="citys"><span>北京</span><span>北京</span><span>北京</span><span>北京</span><span>北京</span><span>北京</span><span>北京</span></div></li>
+                </ul>
+            </div>
         </div>
-        <div></div>
-    </div>  -->
+        <!-- 选择活动城市-弹框 -ending-->
+        <!-- 活动详情-弹框 -->
+        <div class="hdxq">
+            <h1><span>| 活动详情</span><font class="close03"><img src="images/close02.png"/></font></h1>
+            <div class="hdCont">
+                活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情活动详情
+            </div>
+        </div>
+        <!-- 活动详情-弹框-ending -->
+        <!-- 立即报名-弹框 -->
+        <div class="ljbm">
+            <ul class="logins">
+                <li><input type="text" placeholder="请输入您的姓名" /></li>
+                <li><input type="number" placeholder="请输入您的手机号" maxlength="11" /></li>
+                <li><input type="text" placeholder="请输入您的验证码" /><span>获取验证码</span></li>
+                <li class="timer">
+                    <select>
+                        <option>请选择时间</option>
+                    </select>
+                </li>
+            </ul>
+            <div class="zl"><input type="checkbox" checked="true" /><font class="wz">我已阅读并接受汽车大全隐私条款：</br>
+您的个人资料会提交至厂商的授权经销商或汽车大全
+客服，与您进一步沟通试驾、购车等事宜。</font></div>
+        <div class="btns">立即报名</div>
+        <div class="close04"></div>
+        </div>
+        <!-- 立即报名-弹框-ending-->
+    </div>
 </div>
 <script src="js/swiper.min.js"></script>
 <script>
@@ -168,12 +241,56 @@
         loop:true,
         coverflow: {
             rotate: 0,
-            stretch: 160,
+            stretch: 140,
             depth: 100,
             modifier: 1,
             slideShadows : true
         }
     });
+    </script>
+    <script>
+        $().ready(function(){
+            /*选择活动城市弹框-城市选择*/
+            $(".uls li .citys span").click(function(){
+                $(this).addClass("on").siblings().removeClass("on");
+            })
+            /*选择活动城市弹框-关闭*/
+            $(".close02").click(function(){
+                $(".hdCity").hide();
+                $(".tk").hide();
+            })
+            /*活动详情-打开*/
+            $(".actBtn").click(function(){
+                $(".hdxq").show();
+                $(".tk").show();
+            })
+            /*活动详情-关闭*/
+            $(".close03").click(function(){
+                $(".hdxq").hide();
+                $(".tk").hide();
+            })
+            /*立即报名-打开*/
+            $(".ljBtn").click(function(){
+                $(".ljbm").show();
+                $(".tk").show();
+            })
+            /*立即报名-关闭*/
+            $(".close04").click(function(){
+                $(".ljbm").hide();
+                $(".tk").hide();
+            })
+        })
+        //选择城市站点-活动时间和活动地点改变
+        function changes(obj){
+            //console.log($(obj).val());
+            if($(obj).val() == 1){
+                $(".cont p:eq(0)").html("4月18日");
+                $(".cont p a:eq(0)").html("北京市中关村创客大厦");
+            }else if($(obj).val() == 2){
+                $(".cont p:eq(0)").html("10月下旬、11月上旬");
+                $(".cont p a:eq(0)").html("东区音乐公园");
+            }
+        }
     </script>
 </body>
 </html>
